@@ -10,6 +10,6 @@ namespace HR.LeaveManagement.Application.Features.LeaveAllocations.Requests.Comm
 {
     public class UpdateLeaveAllocationCommand : IRequest<Unit>
     {
-        public LeaveAllocationDto LeaveAllocationDto { get; set; }
+        public UpdateLeaveAllocationDto LeaveAllocationDto { get; set; }
     }
 }
